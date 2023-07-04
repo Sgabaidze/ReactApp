@@ -1,9 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-const admin = () => {
+const Admin = () => {
   return (
-    <div>admin</div>
+    <Link to='/addproducts'>
+        <button>პროდუქტის დამატება</button>
+    </Link>
   )
 }
 
-export default admin
+export default Admin

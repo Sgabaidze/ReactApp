@@ -8,8 +8,8 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={Admin}></Route>
-        <Route path='/addproduct' element={AddProduct}></Route>
+        <Route path='/' element={<Admin/>}></Route>
+        <Route path='/addproduct' element={<AddProduct/>}></Route>
       </Routes>
     </BrowserRouter>
     </>
