@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Admin = () => {
   return (
-    <Link to='/addproducts'>
+    <Link to='/addproduct'>
         <button>პროდუქტის დამატება</button>
     </Link>
   )
